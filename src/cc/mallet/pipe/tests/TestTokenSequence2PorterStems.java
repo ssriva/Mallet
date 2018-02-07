@@ -169,7 +169,7 @@ public class TestTokenSequence2PorterStems extends TestCase {
 
   private SerialPipes createPipes() {
 
-    List<Pipe> pipes = new ArrayList<>();
+    List<Pipe> pipes = new ArrayList<Pipe>();
 
     // Convert string to lowercase
     pipes.add(new CharSequenceLowercase());
