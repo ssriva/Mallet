@@ -248,4 +248,10 @@ final public class StringIterator implements Iterator<Character> {
     }
     return false;
   }
+
+@Override
+public void remove() {
+	// TODO Auto-generated method stub
+	
+}
 }
